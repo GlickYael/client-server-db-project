@@ -1,0 +1,51 @@
+/* LogIn.css */
+
+/* Container Styles */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border: 3px solid #adbded; /* Thick Dark Red border */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* LogIn Styles */
+h1 {
+  text-align: center;
+  color: #adbded; /* Dark Red text */
+  font-family: "Pacifico", cursive; /* Cursive font for heading */
+  font-weight: 600; /* Bolder font weight */
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  color: #adbded; /* Dark Red text */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #adbded; /* Dark Red border */
+  border-radius: 6px;
+}
+
+button {
+  background-color: #adbded; /* Dark Red button */
+  color: #ffffff; /* White text */
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600; /* Bolder font weight */
+}
+
+button:disabled {
+  background-color: #d0d0d0; /* Light Gray button for disabled state */
+  cursor: not-allowed;
+}

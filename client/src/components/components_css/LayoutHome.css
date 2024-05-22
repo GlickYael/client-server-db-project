@@ -1,0 +1,92 @@
+/* LayoutHome.css */
+
+.layout-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    text-decoration: none;
+    padding: 15px 20px; /* Increased padding */
+    font-family: 'Pacifico', cursive; 
+    background-color: #adedd5; 
+    color: #ffffff; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: black 2px 2px 2px;
+    z-index: 100;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .fa-house {
+    font-size: 20px;
+    color: #ffffff; /* White color for the house icon */
+  }
+  
+  #homebtn {
+    position: absolute;
+    top: 2vw;
+   right: 2vw;
+  }
+  
+  #menubtn {
+    position: absolute;
+    padding: 15px;
+  
+   top: 5.5vw;
+   right: 2vw;
+  }
+  
+  .menu-container {
+    position: absolute;
+  top: 10vw;
+  right: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .menu-item {
+    text-decoration: none;
+    background-color: #adedd5; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: black 2px 2px 2px;
+  }
+  
+  
+   
+  .menu-item.a{
+    text-decoration: none;
+  }
+  h1{
+   color: #b9adef;
+  font-size: 4vw;
+  text-shadow:black 2px 2px 2px;
+  top: -2vw;
+  position: absolute;
+  left: 35vw;
+  }
+  a{
+    color: #ffffff; 
+  }
+  .container{
+    /* scroll-padding-top: 100vw; */
+  width: 100%;
+  height: 30vw;
+  }

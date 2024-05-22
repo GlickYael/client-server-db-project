@@ -1,0 +1,100 @@
+  
+/* ViewPost.css */
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2; /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px; /* Adjust the max-width as needed */
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.post-body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.post-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.post-buttons button {
+  background-color: #4caf50; /* Green color, you can change it as needed */
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-buttons button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+.post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2; /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 600px; /* Adjust the max-width as needed */
+}
+
+.post-form label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.post-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.post-form button {
+  background-color: #4caf50; /* Green color, you can change it as needed */
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+}
+
+.post-form button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+textarea{
+  width: 90%;
+  height: 80px;
+}

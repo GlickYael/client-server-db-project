@@ -1,0 +1,15 @@
+.full-register-form {
+  width: 900px; /* Adjust as needed */
+  margin: auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+label {
+  flex: 1;
+  margin-right: 10px;
+}
